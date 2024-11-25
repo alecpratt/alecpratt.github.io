@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: projectsold
+permalink: /projectsold/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 6

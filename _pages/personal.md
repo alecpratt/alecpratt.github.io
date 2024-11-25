@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academics
-permalink: /academics/
+title: Personal
+permalink: /personal/
 nav: true
 nav_order: 4
 

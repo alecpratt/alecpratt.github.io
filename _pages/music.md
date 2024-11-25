@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academics
-permalink: /academics/
+title: Music
+permalink: /music/
 nav: true
 nav_order: 3
 ---

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://alecpratt.github.io/sitemap.xml

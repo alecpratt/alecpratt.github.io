@@ -1,0 +1,68 @@
+---
+layout: page
+---
+
+<div class="education">
+    <article>
+        {% if site.academics %}
+            {% for degree in site.academics %}
+                <div class="university">
+                    {% if degree.school %}
+                        <h3>{{ degree.school }}</h3>
+                    {% endif %}
+                </div>
+
+                <hr>
+                <div class="schoollogo float-left">
+                    {% if degree.logo %}
+                        {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                        {% include figure.liquid loading="eager" path=degree.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=degree.logo %}
+                    {% endif %}
+                </div>
+
+                <div class="details">
+
+                    {% if degree.degree and degree.major %}
+                        <p>
+                            <b>Degree Program: </b>
+                            {{degree.degree}} in {{degree.major}}
+                        </p>
+                    {% endif %}
+
+                    {% if degree.gpa %}
+                        <p>
+                            <b>Grade Point Average: <b>
+                            {{degree.gpa}}
+                        </p>
+
+                    {% if degree.location %}
+                        <p>
+                            <b>City: </b>
+                            {{degree.location}}
+                        </p>
+                    {% endif %}
+
+                    {% if degree.startDate and degree.endDate %}
+                        <p>
+                            <b>Dates: </b>
+                            {{degree.startDate}} to {{degree.endDate}}
+                        </p>
+                    {% endif %}
+
+                    <p>
+                        <b>Description: </b>
+                        {{ content | markdownify }}
+                    </p>
+
+                    <p>
+                        {% if degree.courses %}
+                            <p>
+                                <b>Relevant Coursework: </b>
+                                {{degree.location}}
+                            </p>
+                        {% endif %}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </article>
+</div>

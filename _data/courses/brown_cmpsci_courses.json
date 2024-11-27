@@ -4,14 +4,14 @@
         "coursename": "Computing at Scale",
         "institution": "Harvard University",
         "semester": "Fall 2024",
-        "link": "None"
+        "link": "https://courses.my.harvard.edu/psp/courses/EMPLOYEE/EMPL/h/?tab=HU_CLASS_SEARCH&SearchReqJSON=%7B%22PageNumber%22%3A1%2C%22PageSize%22%3A%22%22%2C%22SortOrder%22%3A%5B%22SCORE%22%5D%2C%22Facets%22%3A%5B%5D%2C%22Category%22%3A%22HU_SCL_SCHEDULED_BRACKETED_COURSES%22%2C%22SearchPropertiesInResults%22%3Atrue%2C%22FacetsInResults%22%3Atrue%2C%22SaveRecent%22%3Afalse%2C%22TopN%22%3A%22%22%2C%22SearchText%22%3A%22160624%22%2C%22DeepLink%22%3Afalse%2C%22CombineClassSections%22%3Atrue%7D"
     },
     {
         "coursenumber": "CSCI 2340",
         "coursename": "Software Engineering",
         "institution": "Brown University",
         "semester": "Spring 2024",
-        "description": "None"
+        "link": "https://sites.google.com/brown.edu/csci2340/"
     },
     {
         "coursenumber": "CSCI 1760",
@@ -25,20 +25,20 @@
         "coursename": "Embedded Microprocessor Design",
         "institution": "Brown University",
         "semester": "Fall 2023",
-        "description": "None"
+        "link": "https://bulletin.brown.edu/search/?P=%22ENGN+1650%22"
     },
     {
         "coursenumber": "ENGN 1640",
         "coursename": "Design of Computing Systems",
         "institution": "Brown University",
         "semester": "Spring 2024",
-        "description": "None"
+        "link": "https://bulletin.brown.edu/search/?P=%22ENGN+1640%22"
     },
     {
         "coursenumber": "MUSC 1210",
         "coursename": "Software Engineering",
         "institution": "Brown University",
         "semester": "Fall 2023",
-        "description": "None"
+        "link": "https://bulletin.brown.edu/search/?P=%22MUSC+1210%22"
     }
 ]

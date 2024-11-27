@@ -47,7 +47,7 @@ layout: page
             {% endif %}
 
             <p>
-              <b>Description: </b> {{ degree.content }}
+              {{ degree.content }}
             </p>
 
             {% if degree.courses %}
@@ -61,15 +61,15 @@ layout: page
                   <div class="contentRow">
                     <div class="courseColumnL">
                       {% if course.coursenumber and course.coursename %}
-                        <b>{{course.coursenumber}}:</b> {{course.coursename}} 
+                        {% if course.link %}
+                          <b><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></b>: {{course.coursename}} 
+                        {% else %}
+                          <b>{{course.coursenumber}}</b>: {{course.coursename}} 
+                        {% endif %}
+
                         {% if course.institution != degree.school %}
                           (at {{course.institution}})
                         {% endif %}
-                      {% endif %}
-
-                      <br>
-                      {% if course.description %}
-                        {{course.description}}
                       {% endif %}
                     </div>
 

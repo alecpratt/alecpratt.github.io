@@ -10,4 +10,6 @@ endDate: May 2025
 logo: /assets/img/logos/brown.webp
 courses: brown_cmpsci_courses
 ---
-A description of Brown University.
+**Description:** A description of Brown University. I am going to write some things to demonstrate how this should work.
+
+Now there is a second paragraph associated with my work for demonstration purposes.

@@ -1,1 +1,1 @@
-*{box-sizing:border-box}.headerColumnL{float:left;width:70%;padding:10px}.headerColumnR{float:left;width:30%;padding:10px}.bodyColumnL{float:left;width:30%;padding:10px}.bodyColumnR{float:left;width:70%;padding:10px}.contentRow:after{content:"";display:table;clear:both}
+*{box-sizing:border-box}.courseColumnL{float:left;width:80%;padding:10px}.courseColumnR{float:left;width:20%;padding:10px}.bodyColumnL{float:left;width:30%;padding:10px}.bodyColumnR{float:left;width:70%;padding:10px}.contentRow:after{content:"";display:table;clear:both}

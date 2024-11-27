@@ -21,54 +21,7 @@ layout: page
                 </div>
                 
                 <hr>
-                <div class="contentRow">
-                    <div class="bodyColumnL">
-                        <div class="schoollogo float-left">
-                            {% if degree.logo %}
-                                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-                                {% include figure.liquid loading="eager" path=degree.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=degree.logo %}
-                            {% endif %}
-                        </div>
-                    </div>
 
-                    <div class="bodyColumnR">
-                        <div class="details">
-                            {% if degree.degree and degree.major %}
-                                <p>
-                                    <b>Degree Program: </b>
-                                    {{degree.degree}} in {{degree.major}}
-                                </p>
-                            {% endif %}
-
-                            {% if degree.gpa %}
-                                <p>
-                                    <b>Grade Point Average: </b>
-                                    {{degree.gpa}}
-                                </p>
-                            {% endif %}
-
-                            {% if degree.location %}
-                                <p>
-                                    <b>City: </b>
-                                    {{degree.location}}
-                                </p>
-                            {% endif %}
-
-                            <p>
-                                <b>Description: </b>
-                                {{ degree.content | markdownify }}
-                            </p>
-
-                            <p>
-                                {% if degree.courses %}
-                                    <p>
-                                        <b>Relevant Coursework: </b>
-                                        {{degree.location}}
-                                    </p>
-                                {% endif %}
-                        </div>
-                    </div>
-                </div>
             {% endfor %}
         {% endif %}
     </article>

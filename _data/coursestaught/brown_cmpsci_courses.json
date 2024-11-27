@@ -1,0 +1,24 @@
+[
+    {
+        "coursenumber": "ENGN 2920F",
+        "coursename": "Sensors and Actuators for Real Systems",
+        "institution": "Brown University",
+        "semester": "Spring 2024",
+        "description": "Course Description",
+        "link": "https://bulletin.brown.edu/search/?P=%22ENGN+2920F%22"
+    },
+    {
+        "coursenumber": "ENGN 1640",
+        "coursename": "Design of Computing Systems",
+        "institution": "Brown University",
+        "semester": "Spring 2025",
+        "link": "https://bulletin.brown.edu/search/?P=%22ENGN+1640%22"
+    },
+    {
+        "coursenumber": "ENGN 1630",
+        "coursename": "Digital Electronics System Design",
+        "institution": "Brown University",
+        "semester": "Fall 2024",
+        "link": "https://bulletin.brown.edu/search/?P=%22ENGN+1630%22"
+    }
+]

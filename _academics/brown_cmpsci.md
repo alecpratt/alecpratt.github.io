@@ -8,7 +8,8 @@ location: Providence, Rhode Island
 startDate: September 2023
 endDate: May 2025
 logo: /assets/img/logos/brown.webp
-courses: brown_cmpsci_courses
+coursestaken: brown_cmpsci_courses
+coursestaught: brown_cmpsci_courses
 ---
 **Description:** A description of Brown University. I am going to write some things to demonstrate how this should work.
 

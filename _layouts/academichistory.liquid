@@ -50,12 +50,44 @@ layout: page
               {{ degree.content }}
             </p>
 
-            {% if degree.courses %}
+            {% if degree.coursestaught %}
+              <p>
+                <b>Teaching Experience: </b>
+              </p>
+
+              {% assign courses = site.data.coursestaught[degree.coursestaught] %}
+              {% if courses %}
+                {% for course in courses %}
+                  <div class="contentRow">
+                    <div class="courseColumnL">
+                      {% if course.coursenumber and course.coursename %}
+                        {% if course.link %}
+                          <b><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></b>: {{course.coursename}} 
+                        {% else %}
+                          <b>{{course.coursenumber}}</b>: {{course.coursename}} 
+                        {% endif %}
+
+                        {% if course.description %}
+                          {{course.description}}
+                        {% endif %}
+                    </div>
+
+                    <div class="courseColumnR">
+                      {% if course.semester %}
+                        {{course.semester}}
+                      {% endif %}
+                    </div> 
+                  </div>
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+
+            {% if degree.coursestaken %}
               <p>
                 <b>Relevant Coursework: </b>
               </p>
 
-              {% assign courses = site.data.courses[degree.courses] %}
+              {% assign courses = site.data.coursestaken[degree.coursestaken] %}
               {% if courses %}
                 {% for course in courses %}
                   <div class="contentRow">
@@ -74,7 +106,7 @@ layout: page
                     </div>
 
                     <div class="courseColumnR">
-                      {% if course.semester %}
+                      {% if course.semester and page.includedates %}
                         {{course.semester}}
                       {% endif %}
                     </div>

@@ -6,8 +6,8 @@ degree: Bachelor of Science
 major: Computer Engineering
 gpa: 3.82
 location: University Park, Pennsylvania
-startDate: 08/2017
-endDate: 05/2021
+startDate: August 2017
+endDate: May 2021
 logo: /assets/img/logos/psu.png
 courses: None
 ---

@@ -6,23 +6,59 @@ layout: page
     <article>
         {% if site.academics %}
             {% for degree in site.academics %}
+                {% if degree.school %}
+                    <h3>{{ degree.school }}</h3>
+                {% endif %}
+                {% if degree.location %}
+                    <h5> {{degree.location}} </h5>
+                {% endif %}
+                <hr>
+
                 <div class="contentRow">
-                    <div class="headerColumnL">
-                        {% if degree.school %}
-                            <h3>{{ degree.school }}</h3>
-                        {% endif %}
+                    <div class="bodyColumnL">
+                        <div class="schoollogo float-left">
+                            {% if degree.logo %}
+                                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                                {% include figure.liquid loading="eager" path=degree.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=degree.logo %}
+                            {% endif %}
+                        </div>
                     </div>
 
-                    <div class="headerColumnR">
-                            {% if degree.startDate and degree.endDate %}
-                                <h5>{{degree.startDate}} to {{degree.endDate}} </h5>
-                            {% endif %}
-                    </div
-                    <hr>
+                    <div class="bodyColumnR">
+                        {% if degree.degree and degree.major %}
+                            <p>
+                                <b>Degree Program: </b>
+                                {{degree.degree}} in {{degree.major}}
+                            </p>
+                        {% endif %}
+
+                        {% if degree.gpa %}
+                            <p>
+                                <b>Grade Point Average: </b>
+                                {{degree.gpa}}
+                            </p>
+                        {% endif %}
+
+                        {% if degree.startDate and degree.endDate %}
+                            <p>
+                                <b>Dates: </b>
+                                {{degree.startDate}} to {{degree.endDate}}
+                            </p>
+                        {% endif %}
+
+                        <p>
+                            <b>Description: </b>
+                            {{ degree.content | markdownify }}
+                        </p>
+
+                        {% if degree.courses %}
+                            <p>
+                                <b>Relevant Coursework: </b>
+                                {{degree.location}}
+                            </p>
+                        {% endif %}
+                    </div>
                 </div>
-                
-
-
             {% endfor %}
         {% endif %}
     </article>

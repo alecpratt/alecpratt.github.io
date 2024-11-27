@@ -3,88 +3,93 @@ layout: page
 ---
 
 <div class="post">
-    <article>
-        {% if site.academics %}
-            {% for degree in site.academics %}
-                {% if degree.school %}
-                    <h3>{{ degree.school }}</h3>
-                {% endif %}
-                {% if degree.location %}
-                    <h6> {{degree.location}} </h6>
-                {% endif %}
-                <hr>
-
-                <div class="contentRow">
-                    <div class="bodyColumnL">
-                        <div class="schoollogo float-left">
-                            {% if degree.logo %}
-                                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-                                {% include figure.liquid loading="eager" path=degree.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=degree.logo %}
-                            {% endif %}
-                        </div>
-                    </div>
-
-                    <div class="bodyColumnR">
-                        {% if degree.degree and degree.major %}
-                            <p>
-                                <b>Degree Program: </b>
-                                {{degree.degree}} in {{degree.major}}
-                            </p>
-                        {% endif %}
-
-                        {% if degree.gpa %}
-                            <p>
-                                <b>Grade Point Average: </b>
-                                {{degree.gpa}}
-                            </p>
-                        {% endif %}
-
-                        {% if degree.startDate and degree.endDate %}
-                            <p>
-                                <b>Dates: </b>
-                                {{degree.startDate}} to {{degree.endDate}}
-                            </p>
-                        {% endif %}
-
-                        <p>
-                            <b>Description: </b> {{ degree.content }}
-                        </p>
-
-                        {% if degree.courses %}
-                            <p>
-                                <b>Relevant Coursework: </b> {{ degree.courses }}
-                            </p>
-
-                            {% assign courses = site.data[degree.courses] %}
-                            {% if courses %}
-                                {% for course in courses %}
-                                    <div class="contentRow">
-                                        <div class="headerColumnL">
-                                            {% if course.coursenumber and course.coursename %}
-                                                <b>{{course.coursenumber}}:</b> {{course.coursename}} 
-                                                {% if course.institution != degree.school %}
-                                                    (at {{course.institution}})
-                                                {% endif %}
-                                            {% endif %}
-
-                                            <br>
-                                            {% if course.description %}
-                                                <b>Description: </b> {{course.description}}
-                                            {% endif %}
-                                        </div>
-
-                                        <div class="headerColumnR">
-                                            {% if course.semester %}
-                                                {{course.semester}}
-                                            {% endif %}
-                                        </div>
-                                    </div>
-                                {% endfor %}
-                            {% endif %}
-                        {% endif %}
-                    </div>
-                </div>
-            {% endfor %}
+  <article>
+    {% if site.academics %}
+      {% for degree in site.academics %}
+        {% if degree.school %}
+          <h3>{{ degree.school }}</h3>
         {% endif %}
-    </article>
+        {% if degree.location %}
+          <h6> {{degree.location}} </h6>
+        {% endif %}
+        <hr>
+
+        <div class="contentRow">
+          <div class="bodyColumnL">
+            <div class="schoollogo float-left">
+              {% if degree.logo %}
+                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                {% include figure.liquid loading="eager" path=degree.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=degree.logo %}
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="bodyColumnR">
+            {% if degree.degree and degree.major %}
+              <p>
+                <b>Degree Program: </b>
+                {{degree.degree}} in {{degree.major}}
+              </p>
+            {% endif %}
+
+            {% if degree.gpa %}
+              <p>
+                <b>Grade Point Average: </b>
+                {{degree.gpa}}
+              </p>
+            {% endif %}
+
+            {% if degree.startDate and degree.endDate %}
+              <p>
+                <b>Dates: </b>
+                {{degree.startDate}} to {{degree.endDate}}
+              </p>
+            {% endif %}
+
+            <p>
+              <b>Description: </b> {{ degree.content }}
+            </p>
+
+            {% if degree.courses %}
+              <p>
+                <b>Relevant Coursework: </b> {{ degree.courses }}
+              </p>
+
+              {% assign courses = site.data.courses[degree.courses] %}
+              courses
+
+              {% if courses %}
+                {% for course in courses %}
+                  <div class="contentRow">
+                    <div class="headerColumnL">
+                      {% if course.coursenumber and course.coursename %}
+                        <b>{{course.coursenumber}}:</b> {{course.coursename}} 
+                        {% if course.institution != degree.school %}
+                          (at {{course.institution}})
+                        {% endif %}
+                      {% endif %}
+
+                      <br>
+                      {% if course.description %}
+                        <b>Description: </b> {{course.description}}
+                      {% endif %}
+                    </div>
+
+                    <div class="headerColumnR">
+                      {% if course.semester %}
+                        {{course.semester}}
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+
+          </div>
+
+        </div>
+
+      {% endfor %}
+    {% endif %}
+  </article>
 </div>

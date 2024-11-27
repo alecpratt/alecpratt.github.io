@@ -15,12 +15,13 @@ layout: page
 
                     <div class="headerColumnR">
                             {% if degree.startDate and degree.endDate %}
-                                <h4>{{degree.startDate}} to {{degree.endDate}} </h4>
+                                <h5>{{degree.startDate}} to {{degree.endDate}} </h5>
                             {% endif %}
                     </div
+                    <hr>
                 </div>
                 
-                <hr>
+
 
             {% endfor %}
         {% endif %}

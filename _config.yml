@@ -194,6 +194,10 @@ collections:
   academics:
     output: true
     permalink: /:collection/:title/
+
+
+
+    
   news:
     defaults:
       layout: post

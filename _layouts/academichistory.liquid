@@ -16,7 +16,7 @@ layout: page
 
         <div class="contentRow">
           <div class="bodyColumnL">
-            <div class="schoollogo float-left">
+            <div class="schoollogo float-center">
               {% if degree.logo %}
                 {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
                 {% include figure.liquid loading="eager" path=degree.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=degree.logo %}
@@ -59,7 +59,7 @@ layout: page
               {% if courses %}
                 {% for course in courses %}
                   <div class="contentRow">
-                    <div class="headerColumnL">
+                    <div class="courseColumnL">
                       {% if course.coursenumber and course.coursename %}
                         <b>{{course.coursenumber}}:</b> {{course.coursename}} 
                         {% if course.institution != degree.school %}
@@ -73,7 +73,7 @@ layout: page
                       {% endif %}
                     </div>
 
-                    <div class="headerColumnR">
+                    <div class="courseColumnR">
                       {% if course.semester %}
                         {{course.semester}}
                       {% endif %}

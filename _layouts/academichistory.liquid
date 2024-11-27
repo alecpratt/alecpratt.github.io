@@ -52,12 +52,10 @@ layout: page
 
             {% if degree.courses %}
               <p>
-                <b>Relevant Coursework: </b> {{ degree.courses }}
+                <b>Relevant Coursework: </b>
               </p>
 
               {% assign courses = site.data.courses[degree.courses] %}
-              courses
-
               {% if courses %}
                 {% for course in courses %}
                   <div class="contentRow">
@@ -71,7 +69,7 @@ layout: page
 
                       <br>
                       {% if course.description %}
-                        <b>Description: </b> {{course.description}}
+                        {{course.description}}
                       {% endif %}
                     </div>
 

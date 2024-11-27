@@ -27,21 +27,21 @@ layout: page
           <div class="bodyColumnR">
             {% if degree.degree and degree.major %}
               <p>
-                <b>Degree Program: </b>
+                <strong>Degree Program: </strong>
                 {{degree.degree}} in {{degree.major}}
               </p>
             {% endif %}
 
             {% if degree.gpa %}
               <p>
-                <b>Grade Point Average: </b>
+                <strong>Grade Point Average: </strong>
                 {{degree.gpa}}
               </p>
             {% endif %}
 
             {% if degree.startDate and degree.endDate %}
               <p>
-                <b>Dates: </b>
+                <strong>Dates: </strong>
                 {{degree.startDate}} to {{degree.endDate}}
               </p>
             {% endif %}
@@ -52,7 +52,7 @@ layout: page
 
             {% if degree.coursestaught %}
               <p>
-                <b>Teaching Experience: </b>
+                <strong>Teaching Experience: </strong>
               </p>
 
               {% assign courses = site.data.coursestaught[degree.coursestaught] %}
@@ -62,9 +62,9 @@ layout: page
                     <div class="courseColumnL">
                       {% if course.coursenumber and course.coursename %}
                         {% if course.link %}
-                          <b><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></b>: {{course.coursename}} 
+                          <strong><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></strong>: {{course.coursename}} 
                         {% else %}
-                          <b>{{course.coursenumber}}</b>: {{course.coursename}} 
+                          <strong>{{course.coursenumber}}</strong>: {{course.coursename}} 
                         {% endif %}
 
                         {% if course.description %}
@@ -85,7 +85,7 @@ layout: page
 
             {% if degree.coursestaken %}
               <p>
-                <b>Relevant Coursework: </b>
+                <strong>Relevant Coursework: </strong>
               </p>
 
               {% assign courses = site.data.coursestaken[degree.coursestaken] %}
@@ -95,9 +95,9 @@ layout: page
                     <div class="courseColumnL">
                       {% if course.coursenumber and course.coursename %}
                         {% if course.link %}
-                          <b><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></b>: {{course.coursename}} 
+                          <strong><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></strong>: {{course.coursename}} 
                         {% else %}
-                          <b>{{course.coursenumber}}</b>: {{course.coursename}} 
+                          <strong>{{course.coursenumber}}</strong>: {{course.coursename}} 
                         {% endif %}
 
                         {% if course.institution != degree.school %}

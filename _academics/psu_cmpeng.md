@@ -11,5 +11,6 @@ endDate: May 2021
 logo: /assets/img/logos/psu.png
 courses: psu_cmpeng_courses
 ---
+**Description:** A description of The Pennsylvania State University (BS CE). I am going to write some things to demonstrate how this should work.
 
-A description of The Pennsylvania State University (BS CE).
+Now there is a second paragraph associated with my work for demonstration purposes.

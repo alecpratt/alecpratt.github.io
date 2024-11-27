@@ -1,44 +1,70 @@
 [
     {
-        "coursenumber": "COMPSCI 2420",
-        "coursename": "Computing at Scale",
+        "coursenumber": "INART 258A",
+        "coursename": "Fundamentals of Digital Audio",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2024",
-        "description": "None"
+        "semester": "Spring 2019",
+        "link": "https://bulletins.psu.edu/search/?P=INART%20258A"
     },
     {
-        "coursenumber": "CSCI 2340",
-        "coursename": "Software Engineering",
+        "coursenumber": "INART 50Z",
+        "coursename": "The Science of Music",
         "institution": "The Pennsylvania State University",
-        "semester": "Spring 2024",
-        "description": "None"
+        "semester": "Fall 2019",
+        "link": "https://bulletins.psu.edu/search/?P=INART%2050"
     },
     {
-        "coursenumber": "CSCI 1760",
-        "coursename": "Multiprocessor Synchronization",
+        "coursenumber": "MUSIC 297",
+        "coursename": "ROARs Lab",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2024",
-        "description": "None"
+        "semester": "Fall 2020"
     },  
     {
-        "coursenumber": "ENGN 1650",
-        "coursename": "Embedded Microprocessor Design",
+        "coursenumber": "MUSIC 297",
+        "coursename": "ROARs Lab",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2023",
-        "description": "None"
+        "semester": "Spring 2021"
+    },  
+    {
+        "coursenumber": "MUSIC 451",
+        "coursename": "Computer Programming for Musicians",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2020",
+        "link": "https://bulletins.psu.edu/search/?P=MUSIC%20451"
     },
     {
-        "coursenumber": "ENGN 1640",
-        "coursename": "Design of Computing Systems",
+        "coursenumber": "MUSIC 452",
+        "coursename": "Computer Music Synthesis",
         "institution": "The Pennsylvania State University",
-        "semester": "Spring 2024",
-        "description": "None"
+        "semester": "Spring 2021",
+        "link": "https://bulletins.psu.edu/search/?P=MUSIC%20452"
     },
     {
-        "coursenumber": "MUSC 1210",
-        "coursename": "Software Engineering",
+        "coursenumber": "MUSIC 453",
+        "coursename": "Recording Studio Training",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2023",
-        "description": "None"
+        "semester": "Fall 2020",
+        "link": "https://bulletins.psu.edu/search/?P=MUSIC%20453"
+    },
+    {
+        "coursenumber": "MUSIC 458",
+        "coursename": "Electronic Music Composition",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2021",
+        "link": "https://bulletins.psu.edu/search/?P=MUSIC%20458"
+    },
+    {
+        "coursenumber": "MUSIC 476W",
+        "coursename": "B.A Senior Project",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2021",
+        "link": "https://bulletins.psu.edu/search/?P=MUSIC%20476W"
+    },
+    {
+        "coursenumber": "THEA 484",
+        "coursename": "Sound Recording Techniques",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2019",
+        "link": "https://bulletins.psu.edu/search/?P=THEA%20484"
     }
 ]

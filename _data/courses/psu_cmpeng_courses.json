@@ -1,44 +1,142 @@
 [
     {
-        "coursenumber": "COMPSCI 2420",
-        "coursename": "Computing at Scale",
+        "coursenumber": "CMPEN 473",
+        "coursename": "Microcomputer Laboratory",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2024",
-        "description": "None"
+        "semester": "Spring 2021",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20473"
     },
     {
-        "coursenumber": "CSCI 2340",
-        "coursename": "Software Engineering",
+        "coursenumber": "CMPEN 472",
+        "coursename": "Microprocessors and Embedded Systems",
         "institution": "The Pennsylvania State University",
-        "semester": "Spring 2024",
-        "description": "None"
+        "semester": "Fall 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20472"
     },
     {
-        "coursenumber": "CSCI 1760",
-        "coursename": "Multiprocessor Synchronization",
+        "coursenumber": "CMPEN 431",
+        "coursename": "Introduction to Computer Architecture",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2024",
-        "description": "None"
+        "semester": "Spring 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20431"
     },  
     {
-        "coursenumber": "ENGN 1650",
-        "coursename": "Embedded Microprocessor Design",
+        "coursenumber": "CMPEN 417",
+        "coursename": "Digital Design Using Field Programmable Devices",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2023",
-        "description": "None"
+        "semester": "Spring 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20417"
     },
     {
-        "coursenumber": "ENGN 1640",
-        "coursename": "Design of Computing Systems",
+        "coursenumber": "CMPEN 362",
+        "coursename": "Communication Networks",
         "institution": "The Pennsylvania State University",
-        "semester": "Spring 2024",
-        "description": "None"
+        "semester": "Spring 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20362"
     },
     {
-        "coursenumber": "MUSC 1210",
-        "coursename": "Software Engineering",
+        "coursenumber": "CMPEN 331",
+        "coursename": "Computer Organization and Design",
         "institution": "The Pennsylvania State University",
-        "semester": "Fall 2023",
-        "description": "None"
+        "semester": "Spring 2019",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20331"
+    },
+    {
+        "coursenumber": "CMPEN 270",
+        "coursename": "Digital Design: Theory and Practice",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2018",
+        "link": "https://bulletins.psu.edu/search/?P=CMPEN%20270"
+    },
+    {
+        "coursenumber": "CMPSC 473",
+        "coursename": "Operating Systems Design and Construction",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20473"
+    },
+    {
+        "coursenumber": "CMPSC 465",
+        "coursename": "Data Structures and Algorithms",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20465"
+    },
+    {
+        "coursenumber": "CMPSC 442",
+        "coursename": "Artificial Intelligence",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2021",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20442"
+    },
+    {
+        "coursenumber": "CMPSC 360",
+        "coursename": "Discrete Mathematics for Computer Science",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2019",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20360"
+    },
+    {
+        "coursenumber": "CMPSC 311",
+        "coursename": "Introduction to Systems Programming",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2020",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20311"
+    },
+    {
+        "coursenumber": "CMPSC 221",
+        "coursename": "Objected Oriented Programming with Web-Based Applications",
+        "institution": "The Pennsylvania State University",
+        "semester": "Summer 2019",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20221"
+    },
+    {
+        "coursenumber": "CMPSC 201",
+        "coursename": "Programming for Engineers with C++",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2018",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20201"
+    },
+    {
+        "coursenumber": "CMPSC 132",
+        "coursename": "Programming and Computation II: Data Structures",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2019",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20132"
+    },
+    {
+        "coursenumber": "CMPSC 131",
+        "coursename": "Programming and Computation I: Fundamentals",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2018",
+        "link": "https://bulletins.psu.edu/search/?P=CMPSC%20131"
+    },
+    {
+        "coursenumber": "EE 353",
+        "coursename": "Signals and Systems: Continuous and Discrete-Time",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2020",
+        "link": "https://bulletins.psu.edu/search/?P=EE%20353"
+    },
+    {
+        "coursenumber": "EE 310",
+        "coursename": "Electronics Circuit Design I",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2020",
+        "link": "https://bulletins.psu.edu/search/?P=EE%20310"
+    },
+    {
+        "coursenumber": "EE 210",
+        "coursename": "Circuits and Devices",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2019",
+        "link": "https://bulletins.psu.edu/search/?P=EE%20210"
+    },
+    {
+        "coursenumber": "ME 440W",
+        "coursename": "Mechanical Systems Design Project",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2021",
+        "link": "https://bulletins.psu.edu/search/?P=ME%20440W"
     }
 ]

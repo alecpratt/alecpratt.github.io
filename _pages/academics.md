@@ -1,7 +1,7 @@
 ---
 layout: academichistory
 title: Academics
-subtitle: This page includes a brief history of my academic experience.
+description: This page includes a brief history of my academic experience.
 permalink: /academics/
 nav: true
 nav_order: 1

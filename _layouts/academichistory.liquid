@@ -39,6 +39,14 @@ layout: page
               </p>
             {% endif %}
 
+            {% if degree.distinction %}
+              <p>
+                <strong>Distinction: </strong>
+                {{degree.distinction}}
+              </p>    
+            {% endif %}
+
+
             {% if degree.startDate and degree.endDate %}
               <p>
                 <strong>Dates: </strong>

@@ -5,6 +5,7 @@ school: The Pennsylvania State University
 degree: Bachelor of Science
 major: Computer Engineering
 gpa: 3.82
+distinction: Cum Laude
 location: University Park, Pennsylvania
 startDate: August 2017
 endDate: May 2021

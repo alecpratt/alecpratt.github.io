@@ -1,3 +1,44 @@
 [
-    
+    {
+        "coursenumber": "COMPSCI 2420",
+        "coursename": "Computing at Scale",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2024",
+        "description": "None"
+    },
+    {
+        "coursenumber": "CSCI 2340",
+        "coursename": "Software Engineering",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2024",
+        "description": "None"
+    },
+    {
+        "coursenumber": "CSCI 1760",
+        "coursename": "Multiprocessor Synchronization",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2024",
+        "description": "None"
+    },  
+    {
+        "coursenumber": "ENGN 1650",
+        "coursename": "Embedded Microprocessor Design",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2023",
+        "description": "None"
+    },
+    {
+        "coursenumber": "ENGN 1640",
+        "coursename": "Design of Computing Systems",
+        "institution": "The Pennsylvania State University",
+        "semester": "Spring 2024",
+        "description": "None"
+    },
+    {
+        "coursenumber": "MUSC 1210",
+        "coursename": "Software Engineering",
+        "institution": "The Pennsylvania State University",
+        "semester": "Fall 2023",
+        "description": "None"
+    }
 ]

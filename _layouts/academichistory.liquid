@@ -10,7 +10,7 @@ layout: page
                     <h3>{{ degree.school }}</h3>
                 {% endif %}
                 {% if degree.location %}
-                    <h5> {{degree.location}} </h5>
+                    <h6> {{degree.location}} </h6>
                 {% endif %}
                 <hr>
 
@@ -47,8 +47,7 @@ layout: page
                         {% endif %}
 
                         <p>
-                            <b>Description: </b>
-                            {{ degree.content | markdownify }}
+                            <b>Description: </b> {{ degree.content | escape }}
                         </p>
 
                         {% if degree.courses %}

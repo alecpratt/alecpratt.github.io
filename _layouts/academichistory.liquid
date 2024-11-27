@@ -47,14 +47,39 @@ layout: page
                         {% endif %}
 
                         <p>
-                            <b>Description: </b> {{ degree.content | escape }}
+                            <b>Description: </b> {{ degree.content }}
                         </p>
 
                         {% if degree.courses %}
                             <p>
                                 <b>Relevant Coursework: </b>
-                                {{degree.location}}
                             </p>
+
+                            {% for course in site.data.{{degree.courses}} %}
+                                <div class="contentRow">
+                                    <div class="headerColumnL">
+                                        {% if course.coursenumber and course.coursename %}
+                                            <b>{{course.coursenumber}}:<\b> {{course.coursename}} 
+                                            {% if course.institution != degree.school %}
+                                                (at {{course.institution}})
+                                            {% endif %}
+                                        {% endif %}
+
+                                        <br>
+                                        {% if course.description %}
+                                            <b>Description: <\br> {{course.description}}
+                                        {% endif %}
+                                    </div>
+
+                                    <div class="headerColumnR">
+                                        {% if course.semester %}
+                                            {{course.semester}}
+                                        {% endif %}
+                                    </div>
+
+
+                                </div>
+                            {% endfor %}
                         {% endif %}
                     </div>
                 </div>

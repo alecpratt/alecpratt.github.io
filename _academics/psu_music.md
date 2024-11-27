@@ -9,7 +9,7 @@ location: University Park, Pennsylvania
 startDate: August 2017
 endDate: May 2021
 logo: /assets/img/logos/psu.png
-courses: None
+courses: none
 ---
 
 A description of The Pennsylvania State University (BS CE).

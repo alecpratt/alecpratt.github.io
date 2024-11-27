@@ -6,15 +6,23 @@ layout: page
     <article>
         {% if site.academics %}
             {% for degree in site.academics %}
-                <div class="university">
-                    {% if degree.school %}
-                        <h3>{{ degree.school }}</h3>
-                    {% endif %}
-                </div>
-                <hr>
+                <div class="contentRow">
+                    <div class="headerColumnL">
+                        {% if degree.school %}
+                            <h3>{{ degree.school }}</h3>
+                        {% endif %}
+                    </div>
 
-                <div class="row">
-                    <div class="bodyColumnL" style="background-color:#fff;">
+                    <div class="headerColumnR">
+                            {% if degree.startDate and degree.endDate %}
+                                <h4>{{degree.startDate}} to {{degree.endDate}} </h4>
+                            {% endif %}
+                    </div
+                </div>
+                
+                <hr>
+                <div class="contentRow">
+                    <div class="bodyColumnL">
                         <div class="schoollogo float-left">
                             {% if degree.logo %}
                                 {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
@@ -23,7 +31,7 @@ layout: page
                         </div>
                     </div>
 
-                    <div class="bodyColumnR" style="background-color:#ffd;">
+                    <div class="bodyColumnR">
                         <div class="details">
                             {% if degree.degree and degree.major %}
                                 <p>
@@ -43,13 +51,6 @@ layout: page
                                 <p>
                                     <b>City: </b>
                                     {{degree.location}}
-                                </p>
-                            {% endif %}
-
-                            {% if degree.startDate and degree.endDate %}
-                                <p>
-                                    <b>Dates: </b>
-                                    {{degree.startDate}} to {{degree.endDate}}
                                 </p>
                             {% endif %}
 

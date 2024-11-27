@@ -10,5 +10,4 @@ endDate: 05/2025
 logo: /assets/img/logos/brownlog.webp
 courses: None
 ---
-
 A description of Brown University.

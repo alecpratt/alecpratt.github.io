@@ -1,6 +1,12 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+
+<!-- Split Information Table -->
+{% if page.splitinformation %}
+  <link rel="stylesheet" href="{{ '/assets/css/tableContent.css' | relative_url }}">
+{% endif %}
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link

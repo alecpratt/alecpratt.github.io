@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <div class="post">
     <article>
         {% if site.academics %}
@@ -13,7 +14,7 @@ layout: page
                 <hr>
 
                 <div class="row">
-                    <div class="columnL" style="background-color:#fff;">
+                    <div class="bodyColumnL" style="background-color:#fff;">
                         <div class="schoollogo float-left">
                             {% if degree.logo %}
                                 {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
@@ -22,7 +23,7 @@ layout: page
                         </div>
                     </div>
 
-                    <div class="columnR" style="background-color:#ffd;">
+                    <div class="bodyColumnR" style="background-color:#ffd;">
                         <div class="details">
                             {% if degree.degree and degree.major %}
                                 <p>

@@ -52,34 +52,35 @@ layout: page
 
                         {% if degree.courses %}
                             <p>
-                                <b>Relevant Coursework: </b>
+                                <b>Relevant Coursework: </b> {{ degree.courses }}
                             </p>
 
-                            {% for course in site.data.[degree.courses] %}
-                                <div class="contentRow">
-                                    <div class="headerColumnL">
-                                        {% if course.coursenumber and course.coursename %}
-                                            <b>{{course.coursenumber}}:</b> {{course.coursename}} 
-                                            {% if course.institution != degree.school %}
-                                                (at {{course.institution}})
+                            {% assign courses = site.data[degree.courses] %}
+                            {% if courses %}
+                                {% for course in courses %}
+                                    <div class="contentRow">
+                                        <div class="headerColumnL">
+                                            {% if course.coursenumber and course.coursename %}
+                                                <b>{{course.coursenumber}}:</b> {{course.coursename}} 
+                                                {% if course.institution != degree.school %}
+                                                    (at {{course.institution}})
+                                                {% endif %}
                                             {% endif %}
-                                        {% endif %}
 
-                                        <br>
-                                        {% if course.description %}
-                                            <b>Description: </b> {{course.description}}
-                                        {% endif %}
+                                            <br>
+                                            {% if course.description %}
+                                                <b>Description: </b> {{course.description}}
+                                            {% endif %}
+                                        </div>
+
+                                        <div class="headerColumnR">
+                                            {% if course.semester %}
+                                                {{course.semester}}
+                                            {% endif %}
+                                        </div>
                                     </div>
-
-                                    <div class="headerColumnR">
-                                        {% if course.semester %}
-                                            {{course.semester}}
-                                        {% endif %}
-                                    </div>
-
-
-                                </div>
-                            {% endfor %}
+                                {% endfor %}
+                            {% endif %}
                         {% endif %}
                     </div>
                 </div>

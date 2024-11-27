@@ -7,7 +7,7 @@ gpa: 4.0
 location: Providence, Rhode Island
 startDate: September 2023
 endDate: May 2025
-logo: /assets/img/logos/brownlog.webp
+logo: /assets/img/logos/brown.webp
 courses: brown_cmpsci_courses
 ---
 A description of Brown University.

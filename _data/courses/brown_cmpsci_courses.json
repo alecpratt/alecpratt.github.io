@@ -4,7 +4,7 @@
         "coursename": "Computing at Scale",
         "institution": "Harvard University",
         "semester": "Fall 2024",
-        "description": "None"
+        "link": "None"
     },
     {
         "coursenumber": "CSCI 2340",
@@ -18,7 +18,7 @@
         "coursename": "Multiprocessor Synchronization",
         "institution": "Brown University",
         "semester": "Fall 2024",
-        "description": "None"
+        "description": "https://cs.brown.edu/courses/cs176/"
     },  
     {
         "coursenumber": "ENGN 1650",

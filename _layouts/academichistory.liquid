@@ -55,11 +55,11 @@ layout: page
                                 <b>Relevant Coursework: </b>
                             </p>
 
-                            {% for course in site.data.{{degree.courses}} %}
+                            {% for course in site.data.[degree.courses] %}
                                 <div class="contentRow">
                                     <div class="headerColumnL">
                                         {% if course.coursenumber and course.coursename %}
-                                            <b>{{course.coursenumber}}:<\b> {{course.coursename}} 
+                                            <b>{{course.coursenumber}}:</b> {{course.coursename}} 
                                             {% if course.institution != degree.school %}
                                                 (at {{course.institution}})
                                             {% endif %}
@@ -67,7 +67,7 @@ layout: page
 
                                         <br>
                                         {% if course.description %}
-                                            <b>Description: <\br> {{course.description}}
+                                            <b>Description: </b> {{course.description}}
                                         {% endif %}
                                     </div>
 

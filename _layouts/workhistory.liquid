@@ -63,15 +63,15 @@ layout: page
                       <div style="dataColumnL">
                         {% if honor.honor %}
                           <strong> {{ honor.honor }} </strong>
-                        {% endif %}
-                        <br>
+                          <br>
 
-                        {% if honor.description %}
-                          {{ honor.description }}
-                        {% endif %} 
+                          {% if honor.description %}
+                            {{ honor.description }}
+                          {% endif %} 
+                        {% endif %}
                       </div>
 
-                      <div style="dataColumnR">
+                      <div style="dataColumnR" align="right">
                         {% if honor.date %}
                           {{ honor.date }}
                         {% endif %}

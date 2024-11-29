@@ -64,9 +64,7 @@ layout: page
                         <strong> {{ honor.honor }} </strong>
                         <br>
 
-                        {% if honor.description %}
-                          {{honor.description}}
-                        {% endif %}
+
                       {% endif %}
                     </div>
 
@@ -75,6 +73,11 @@ layout: page
                         {{honor.date}}
                       {% endif %}
                     </div> 
+
+                        {% if honor.description %}
+                          {{honor.description}}
+                        {% endif %}
+
                   </div>
                 {% endfor %}
               {% endif %}

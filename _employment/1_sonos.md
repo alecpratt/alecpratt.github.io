@@ -9,4 +9,4 @@ honors: None
 ---
 **Description**: A sample description of my work experience at Sonos, Inc.
 
-I am following up here with additional information about my experience at Sonos, INc. 
+I am following up here with additional information about my experience at Sonos, Inc. 

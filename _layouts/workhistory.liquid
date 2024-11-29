@@ -7,9 +7,16 @@ layout: page
     {% if site.employment %}
       {% for job in site.employment %}
         <div class="contentRow">
-          {% if job.company %}
-            <h3> {{ job.company }} </h3>
-          {% endif %}
+          <div class="headerColumnL">
+            {% if job.company %}
+              <h3> {{ job.company }} </h3>
+            {% endif %}
+          </div>
+
+          <div class="headerColumnR">
+          </div>
+
+
           <div class="headerColumnL">
             {% if job.location %}
                 <h6> {{job.location}} </h6>

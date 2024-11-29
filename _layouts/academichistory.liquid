@@ -6,12 +6,25 @@ layout: page
   <article>
     {% if site.academics %}
       {% for degree in site.academics %}
-        {% if degree.school %}
-          <h3>{{ degree.school }}</h3>
-        {% endif %}
-        {% if degree.location %}
-          <h6> {{degree.location}} </h6>
-        {% endif %}
+        <div class="contentRow">
+          <div class="headerColumnL">
+            {% if degree.school %}
+              <h3>{{ degree.school }}</h3>
+            {% endif %}
+          </div>
+
+          <div class="headerColumnR">
+          </div>
+
+          <div class="headerColumnL">
+            {% if degree.location %}
+              <h6> {{degree.location}} </h6>
+            {% endif %}
+          </div>
+
+          <div class="headerColumnR">
+          </div>
+        </div>
         <hr>
 
         <div class="contentRow">

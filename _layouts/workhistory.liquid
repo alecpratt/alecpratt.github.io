@@ -54,32 +54,32 @@ layout: page
 
             {% if job.honors %}
               <p>
-                <strong> Honors: </strong>
+                <strong>Honors: </strong>
               </p>
-                {% assign honors = site.data.workhonors[job.honors] %}
-                {% if honors %}
-                  {% for honor in honors %}
-                    <div style="contentRow">
-                      <div style="dataColumnL">
-                        {% if honor.honor %}
-                          <strong> {{ honor.honor }} </strong>
-                          <br>
 
-                          {% if honor.description %}
-                            {{ honor.description }}
-                          {% endif %} 
-                        {% endif %}
-                      </div>
+              {% assign honors = site.data.workhonors[job.honors] %}
+              {% if honors %}
+                {% for honor in honors %}
+                  <div class="contentRow">
+                    <div class="dataColumnL">
+                      {% if honor.honor %}
+                        <strong> {{ honor.honor }} </strong>
+                        <br>
 
-                      <div style="dataColumnR" align="right">
-                        {% if honor.date %}
-                          {{ honor.date }}
+                        {% if honor.description %}
+                          {{honor.description}}
                         {% endif %}
-                      </div>
+                      {% endif %}
                     </div>
 
-                  {% endfor %}
-                {% endif %}
+                    <div class="dataColumnR" align="right">
+                      {% if honor.date %}
+                        {{honor.date}}
+                      {% endif %}
+                    </div> 
+                  </div>
+                {% endfor %}
+              {% endif %}
             {% endif %}
           </div>
         </div>

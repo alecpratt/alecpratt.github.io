@@ -72,8 +72,8 @@ layout: page
             </p>
 
             {% if degree.coursestaught %}
-              <p>
-                <strong style="vertical-align:text-bottom;">Teaching Experience: </strong>
+              <p class="listparagraph">
+                <strong>Teaching Experience: </strong>
               </p>
 
               {% assign courses = site.data.coursestaught[degree.coursestaught] %}
@@ -106,8 +106,8 @@ layout: page
             {% endif %}
 
             {% if degree.coursestaken %}
-              <p>
-                <strong style="vertical-align:text-bottom;">Relevant Coursework: </strong>
+              <p class="listparagraph">
+                <strong>Relevant Coursework: </strong>
               </p>
 
               {% assign courses = site.data.coursestaken[degree.coursestaken] %}

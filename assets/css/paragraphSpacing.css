@@ -1,7 +1,8 @@
 p {
-    line-height: 10px;
+    line-height: 7px;
 }
 
-p.para2 {
-    line-height: 5px;
+p.listparagraph {
+    line-height: 0px;
+    vertical-align:text-bottom;
 }

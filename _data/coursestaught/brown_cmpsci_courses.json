@@ -4,7 +4,7 @@
         "coursename": "Sensors and Actuators for Real Systems",
         "institution": "Brown University",
         "semester": "Spring 2024",
-        "description": "Course Description",
+        "description": "My responsibility as a Teaching Assistant for Sensors and Actuators for Real Systems was to assist 20 students with homework examples and all lab work. Labs included controlling a 2-D Plotter, a stepper motor, and a BLDC motor, all of which were completed on ST Microcontrollers using C. Other topics in the course include Kalman filters and radar systems.",
         "link": "https://bulletin.brown.edu/search/?P=%22ENGN+2920F%22"
     },
     {
@@ -12,6 +12,7 @@
         "coursename": "Design of Computing Systems",
         "institution": "Brown University",
         "semester": "Spring 2025",
+        "description": "I am under agreement to be a Teaching Assistant for Design Computing Systems in the Spring 2025 semester. This course is a graduate level introduction to computer architecture including topics such as instruction set architecture, single-cycle processor design, pipeline processing, and hardware cache design. My responsibility is to assist students with lab exercises in Verilog with Cyclone FPGA boards.",
         "link": "https://bulletin.brown.edu/search/?P=%22ENGN+1640%22"
     },
     {
@@ -19,6 +20,7 @@
         "coursename": "Digital Electronics System Design",
         "institution": "Brown University",
         "semester": "Fall 2024",
+        "description": "As a Teaching Assistant for Digital Electronics System Design, I hold weekly office hours to assist 50 students with homework problems; additionally I grade all assignments. This is a graduate level course that focuses on topics including fundamentals of digital logic design, A-D conversion, binary arithmetic, and programmable logic.",
         "link": "https://bulletin.brown.edu/search/?P=%22ENGN+1630%22"
     }
 ]

@@ -79,6 +79,13 @@ layout: page
                 {% endfor %}
               {% endif %}
             {% endif %}
+
+            {% if job.skills %}
+              <p>
+                <strong> Skills </strong>: {{ job.skills }}
+              </p>
+            {% endif %}
+
           </div>
         </div>
 

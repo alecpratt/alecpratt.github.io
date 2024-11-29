@@ -42,19 +42,19 @@ layout: page
 
           <div class="bodyColumnR">
             {% if job.position %}
-              <p class="paragraph">
+              <p>
                 <strong> Position: </strong>
                 {{ job.position }}
               </p>
             {% endif %}
 
-            <p class="paragraph">
+            <p>
               {{ job.content }}
             </p>
 
             {% if job.honors %}
-              <p class="paragraph">
-                <strong>Honors: </strong>
+              <p>
+                <strong style="vertical-align:text-bottom;">Honors: </strong>
               </p>
 
               {% assign honors = site.data.workhonors[job.honors] %}

@@ -39,21 +39,21 @@ layout: page
 
           <div class="bodyColumnR">
             {% if degree.degree and degree.major %}
-              <p class="paragraph">
+              <p>
                 <strong>Degree Program: </strong>
                 {{degree.degree}} in {{degree.major}}
               </p>
             {% endif %}
 
             {% if degree.gpa %}
-              <p class="paragraph">
+              <p>
                 <strong>Grade Point Average: </strong>
                 {{degree.gpa}}
               </p>
             {% endif %}
 
             {% if degree.distinction %}
-              <p class="paragraph">
+              <p>
                 <strong>Distinction: </strong>
                 {{degree.distinction}}
               </p>    
@@ -61,19 +61,19 @@ layout: page
 
 
             {% if degree.startDate and degree.endDate %}
-              <p class="paragraph">
+              <p>
                 <strong>Dates: </strong>
                 {{degree.startDate}} to {{degree.endDate}}
               </p>
             {% endif %}
 
-            <p class="paragraph">
+            <p>
               {{ degree.content }}
             </p>
 
             {% if degree.coursestaught %}
-              <p class="paragraph">
-                <strong>Teaching Experience: </strong>
+              <p>
+                <strong style="vertical-align:text-bottom;">Teaching Experience: </strong>
               </p>
 
               {% assign courses = site.data.coursestaught[degree.coursestaught] %}
@@ -106,8 +106,8 @@ layout: page
             {% endif %}
 
             {% if degree.coursestaken %}
-              <p class="paragraph">
-                <strong>Relevant Coursework: </strong>
+              <p>
+                <strong style="vertical-align:text-bottom;">Relevant Coursework: </strong>
               </p>
 
               {% assign courses = site.data.coursestaken[degree.coursestaken] %}

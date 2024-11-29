@@ -2,12 +2,18 @@
     .dataColumnL {
         float: left;
         width: 80%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 0px;
     }
     .dataColumnR {
         float: left;
         width: 20%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 0px;
     }
     .headerColumnL {
         float: left;
@@ -22,12 +28,18 @@
     .bodyColumnL {
         float: left;
         width: 25%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 0px;
     }
     .bodyColumnR {
         float: left;
         width: 75%;
-        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-top: 0px;
     }
     .contentRow:after {
         content: "";

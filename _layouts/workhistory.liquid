@@ -62,9 +62,6 @@ layout: page
                     <div class="dataColumnL">
                       {% if honor.honor %}
                         <strong> {{ honor.honor }} </strong>
-                        <br>
-
-
                       {% endif %}
                     </div>
 
@@ -74,11 +71,11 @@ layout: page
                       {% endif %}
                     </div> 
 
-                        {% if honor.description %}
-                          <p style="padding-left: 10px; padding-right: 10px; padding-bottom: 5px; padding-top: 5px;">
-                            {{honor.description}}
-                          </p>
-                        {% endif %}
+                    {% if honor.description %}
+                      <p style="padding-left: 10px; padding-right: 10px; padding-top: 5px;">
+                        {{honor.description}}
+                      </p>
+                    {% endif %}
 
                   </div>
                 {% endfor %}

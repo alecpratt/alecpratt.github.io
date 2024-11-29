@@ -59,7 +59,6 @@ layout: page
               </p>    
             {% endif %}
 
-
             {% if degree.startDate and degree.endDate %}
               <p>
                 <strong>Dates: </strong>
@@ -85,11 +84,6 @@ layout: page
                         {% else %}
                           <strong>{{course.coursenumber}}</strong>: {{course.coursename}} 
                         {% endif %}
-                        <br>
-
-                        {% if course.description %}
-                          {{course.description}}
-                        {% endif %}
                       {% endif %}
                     </div>
 
@@ -98,6 +92,13 @@ layout: page
                         {{course.semester}}
                       {% endif %}
                     </div> 
+
+                    {% if course.description %}
+                      <p style="padding-left: 10px; padding-right: 10px; padding-top: 5px;">
+                        {{course.description}}
+                      </p>
+                    {% endif %}
+
                   </div>
                 {% endfor %}
               {% endif %}

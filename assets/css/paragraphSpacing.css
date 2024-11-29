@@ -6,4 +6,5 @@ p {
 p.list {
     line-height: normal;
     margin-bottom: 7px;
+    margin-top: 10px;
 }

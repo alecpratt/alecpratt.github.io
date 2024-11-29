@@ -195,7 +195,9 @@ collections:
   employment:
     output: true
     permalink: /:collection/:title/
-
+  personal:
+    output: true
+    permalink: /:collection/:title/
 
     
   news:

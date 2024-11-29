@@ -1,0 +1,41 @@
+---
+layout: page
+---
+
+<div class="post">
+  <article>
+      {% if site.personal %}
+        {% for topic in site.personal %}
+
+          <!-- Topic Header -->
+          <div class="contentRow">
+            {% if topic.align == "left" %}
+              <div class="evenColumnL">
+                <h3> topic.topic </h3>
+              </div>
+              <div class="evenColumnR">
+              </div>
+            {% else %}
+              <div class="evenColumnL">
+              </div>
+              <div class="evenColumnR" align="right">
+                <h3> topic.topic </h3>
+              </div>
+            {% endif %}
+          </div>
+
+          <!-- Topic Image Alignment -->
+          {% if topic.imagealign and topic.image %}
+            <div class="float.{{topic.imagealign}}">
+                  {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                  {% include figure.liquid loading="eager" path=topic.image class='img-fluid z-depth-1 rounded' sizes=sizes alt=topic.image %}
+            </div>
+          {% endif %}
+          {{ topic.content }}
+
+
+        {% endfor %}
+     {% endif %}
+
+  </article>
+</div>

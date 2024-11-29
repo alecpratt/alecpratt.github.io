@@ -67,7 +67,7 @@ layout: page
               {% if courses %}
                 {% for course in courses %}
                   <div class="contentRow">
-                    <div class="courseColumnL">
+                    <div class="dataColumnL">
                       {% if course.coursenumber and course.coursename %}
                         {% if course.link %}
                           <strong><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></strong>: {{course.coursename}} 
@@ -81,7 +81,7 @@ layout: page
                       {% endif %}
                     </div>
 
-                    <div class="courseColumnR">
+                    <div class="dataColumnR">
                       {% if course.semester %}
                         {{course.semester}}
                       {% endif %}
@@ -100,7 +100,7 @@ layout: page
               {% if courses %}
                 {% for course in courses %}
                   <div class="contentRow">
-                    <div class="courseColumnL">
+                    <div class="dataColumnL">
                       {% if course.coursenumber and course.coursename %}
                         {% if course.link %}
                           <strong><a href="{{course.link}}" target="_blank">{{course.coursenumber}}</a></strong>: {{course.coursename}} 
@@ -114,7 +114,7 @@ layout: page
                       {% endif %}
                     </div>
 
-                    <div class="courseColumnR">
+                    <div class="dataColumnR">
                       {% if course.semester and page.includedates %}
                         {{course.semester}}
                       {% endif %}

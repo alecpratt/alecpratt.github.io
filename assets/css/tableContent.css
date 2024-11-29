@@ -1,10 +1,10 @@
 * { box-sizing:border-box }
-    .courseColumnL {
+    .dataColumnL {
         float: left;
         width: 80%;
         padding: 10px;
     }
-    .courseColumnR {
+    .dataColumnR {
         float: left;
         width: 20%;
         padding: 10px;
@@ -12,12 +12,12 @@
     .headerColumnL {
         float: left;
         width: 60%;
-        padding: 10px;
+        padding: 0px;
     }
     .headerColumnR {
         float: left;
         width: 40%;
-        padding: 10px;
+        padding: 0px;
     }
     .bodyColumnL {
         float: left;

@@ -9,6 +9,16 @@
         width: 20%;
         padding: 10px;
     }
+    .headerColumnL {
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+    .headerColumnR {
+        float: left;
+        width: 40%;
+        padding: 10px;
+    }
     .bodyColumnL {
         float: left;
         width: 25%;

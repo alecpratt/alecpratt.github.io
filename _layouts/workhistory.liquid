@@ -1,0 +1,61 @@
+---
+layout: page
+---
+
+<div class="post">
+  <article>
+    {% if site.employment %}
+      {% for job in site.employment %}
+        <div class="contentRow">
+          <div class="headerColumnL">
+            {% if job.company %}
+                <h3> {{ job.company }} </h3>
+            {% endif %}
+            {% if job.location %}
+                <h6> {{job.location}} </h6>
+            {% endif %}
+          </div>
+
+          <div class="headerColumnR">
+            {% if job.startdate and job.enddate %}
+              <h6> {{ job.startdate }} to {{ job.enddate }} <\h6>
+            {% endif %}
+          </div>
+        </div>
+        <hr>
+
+        <div class="contentRow">
+          <div class="bodyColumnL">
+            <div class="companylogo float-center">
+              {% if job.logo %}
+                {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+                {% include figure.liquid loading="eager" path=job.logo class='img-fluid z-depth-1 rounded' sizes=sizes alt=job.logo %}
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="bodyColumnR">
+            {% if job.position %}
+              <p>
+                <strong> Position: </strong>
+                {{ job.position }}
+              </p>
+            {% endif %}
+
+            <p>
+              {{ job.content }}
+            </p>
+
+            {% if job.honors %}
+              <p>
+                <strong> Honors: </strong>
+                {{ job.honors }}
+              </p>
+            {% endif %}
+          </div>
+        </div>
+
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>

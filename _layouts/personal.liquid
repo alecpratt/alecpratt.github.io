@@ -36,14 +36,15 @@ layout: page
             {% endif %}
             {{ topic.content }}
 
-            {% if topic.data %}
-              {% assign booksToDisplay = site.data.booklist[0..9] %}
-              {% for book in booksToDisplay %}
-                <p> {{ book.book }} </p>
 
-                <li>
-                  {{ book.book }}, <em> {{ book.author }} </em>
-                </li>
+            {% if topic.data %}
+              <p>{{ site.data.booklist | inspect }}</p>
+              {% assign booksToDisplay = site.data.booklist[0..9] %}
+              <p>{{ booksToDisplay | inspect }}</p>
+              
+              {% for book in booksToDisplay %}
+                
+                <p> {{ book.book }} </p>
               {% endfor %}
             {% endif %}
           </div>

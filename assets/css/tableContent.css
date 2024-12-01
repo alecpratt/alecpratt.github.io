@@ -5,6 +5,10 @@
         padding-bottom: 5px;
         padding-top: 5px;
     }
+    .columnThirds {
+        float: left;
+        width: 33.33%;
+    }
     .dataColumnL {
         float: left;
         width: 80%;

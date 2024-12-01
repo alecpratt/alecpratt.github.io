@@ -36,8 +36,15 @@ description:
       </div>
     {% endfor %}
   {% else %}
-
-
+    {% if section.items %}
+      <div class="contentRow>
+        {% for item in section.items %}
+          <div class="columnThirds">
+            {{ item.item }}
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
   {% endif %}
 
 {% endfor %}

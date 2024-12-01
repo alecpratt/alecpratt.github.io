@@ -8,7 +8,7 @@ layout: page
       {% for project in site.data.projects %}
         <div class="bodyText">
           {% if project.project %}
-            <h3> {{ project.project }} </h3>
+            <h5> {{ project.project }} </h5>
           {% endif %}
           
           {% if project.purpose %}
@@ -16,14 +16,14 @@ layout: page
             <br>
           {% endif %}
         
-          {% if project.description %}
+          {% if project.abstract %}
             <strong>Abstract: </strong>
-            {{ site.data.projectdescription[project.description] | markdownify | slice: 0, 100 }}
+            {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 100 }}
             <br>
           {% endif %}
 
           {% if project.file %}
-            <a href="{{ project.file }}" download="pratta_{{ project.project }}.pdf"><strong>PDF Download</strong></a>
+            <a href="{{ project.file }}" download="pratta_{{ project.abstract }}.pdf"><strong>PDF Download</strong></a>
             <br>
           {% endif %}
 

@@ -1,0 +1,26 @@
+- section: Awards
+  type: datedlist
+  - item: Award 1
+    startdate:
+    enddate: 
+    location:
+  - item: Award 2
+    startdate:
+    enddate:
+    location:
+- section: Clubs and Organizations
+  type: datedlist
+  - item: Club 1
+    startdate:
+    enddate:
+    location:
+  - item: Club 2
+    startdate:
+    enddate:
+    location:
+- section: Skills
+  type: col3list
+  - item: Skill 1
+  - item: Skill 2
+  - item: Skill 3
+  

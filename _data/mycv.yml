@@ -70,19 +70,19 @@
 - section: Clubs and Organizations
   type: datedlist
   items:
-  - item: Institute of Electrical and Electronics Engineers
+  - item: IEEE
     role: Member
     startdate: January 2023
     enddate: Present
     location: National Membership
 
-  - item: Institute of Electrical and Electronics Engineers Signal Processing Society
+  - item: IEEE Signal Processing Society
     role: Member
     startdate: January 2023
     enddate: Present
     location: National Membership
 
-  - item: Penn State ROARs Lab (Music Technology Organization)
+  - item: Penn State ROARs Lab (Music Tech. Org.)
     role: Member
     startdate: August 2020
     enddate: May 2021

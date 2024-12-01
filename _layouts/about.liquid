@@ -43,9 +43,10 @@ layout: default
     <!-- Recent Projects -->
     <h3> <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Recent Projects</a>
     {% for project in site.data.projects limit:3 %}
-      <p>
-        {{ project.project }} - {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 100 }}
-      </p>
+      <div class="bodyText">
+        <strong>{{ project.project }}</strong>
+        {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 100 }}
+      </div>
     {% endfor %}
 
     <!-- Social -->

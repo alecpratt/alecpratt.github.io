@@ -37,7 +37,7 @@ layout: page
             {{ topic.content }}
 
             <p> {{topic.data}} </p>
-            {% if topic.data == "booklist" %}
+            {% if topic.data == booklist %}
               {% assign booksToDisplay = site.data.booklist[0..9] %}
               {% for book in booksToDisplay %}
                 <li>

@@ -11,6 +11,8 @@ endDate: May 2021
 logo: /assets/img/logos/psu.png
 coursestaken: psu_music_courses
 ---
-**Description:** A description of The Pennsylvania State University (BA MT). I am going to write some things to demonstrate how this should work.
+**Description:** Entering undergraduate, I had nearly 40 college credits transfer from a mixture of Advanced Placement and College in the Highschool coursework. I wanted to get a full four-year experience in college, so I decided that I would add a second degree in an area that I loved, music. After talking with my engineering advisor my first year, I was under the impression I could graduate in four years with the two degrees while only taking 18 credits a semester. Oh and were they wrong...
 
-Now there is a second paragraph associated with my work for demonstration purposes.
+Truthfully, I did not know much about music technology before I started the degree program. I chose the music technology degree because its requirements had the most overlap with my engineering degree, so I would in theory be able to complete it in four years. It did not take long before I fell in love with the field. After taking Fundamentals of Digital Audio with the late Dr. Mark Ballora, I became obsessed. Discovering the underlying technology that enabled some of my favorite artists like Disclosure to create their Grammy Award Nominated music instantly had me craving more.
+
+The Music Technology degree required more than math and music technology courses. As a student in the School of Music, I took all of the required music theory, music history, and aural skills courses. Additionally, I studied voice under Dr. Ted Christopher and I spent all four years in some combination of the Concert Choir and Glee Club under Dr. Christopher Kiver. These vocal experiences led me to participate in the Penn State Opera and travel the world to perform in venues such as the Lincoln Center and the Thomaskirche. 

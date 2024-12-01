@@ -8,4 +8,6 @@ cv_pdf: example_pdf.pdf
 description:
 #toc:
 #  sidebar: left
+splitinformation: true
+includedates: false
 ---

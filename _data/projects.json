@@ -1,0 +1,34 @@
+[
+    {
+        "project": "From DINO to DYNO",
+        "purpose": "COMPSCI 2420 Project",
+        "description": "dyno",
+        "file": "/assets/pdf/example_pdf.pdf",
+        "link": "None",
+        "image": "None"
+    },
+    {
+        "project": "Radio Delay Project",
+        "purpose": "ENGN 1640 Project",
+        "description": "rdp",
+        "file": "/assets/pdf/example_pdf.pdf",
+        "link": "None",
+        "image": "None"
+    },
+    {
+        "project": "ArtGen",
+        "purpose": "CSCI 2340 Project",
+        "description": "artgen",
+        "file": "/assets/pdf/example_pdf.pdf",
+        "link": "None",
+        "image": "None"
+    },
+    {
+        "project": "Automated Graphics for Contemporary Performance",
+        "purpose": "MUSC 1210 Project",
+        "description": "agcp",
+        "file": "/assets/pdf/example_pdf.pdf",
+        "link": "None",
+        "image": "None"
+    }
+]

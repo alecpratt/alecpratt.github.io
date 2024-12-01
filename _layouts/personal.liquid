@@ -8,15 +8,15 @@ layout: page
         {% for topic in site.personal %}
 
           <!-- Topic Header -->
-          <div class="contentRow">
-            {% if topic.topic %}
+          {% if topic.topic %}
+            <div class="contentRow">
                 <div class="headerColumnL">
                   <h3> {{ topic.topic }} </h3>
                 </div>
                 <div class="headerColumnR">
                 </div>
-            {% endif %}
-          </div>
+            </div>
+          {% endif %}
 
           <div>
             <!-- Topic Image Alignment -->

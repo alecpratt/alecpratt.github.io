@@ -17,8 +17,8 @@ layout: page
       {% if section.type == "datedlist" %}
         {% for item in section.items %}
           <div class="contentRow">
-            <div class="evenColumnL">
-              <strong> {{ item.item }} </strong>
+            <div class="dataColumnL">
+              <strong>{{ item.item }}</strong>
               {% if item.role %}
                 , {{ item.role }}
               {% endif %}
@@ -29,7 +29,7 @@ layout: page
               <em> {{ item.location }} </em>
             </div>
 
-            <div class="evenColumnR" align="right">
+            <div class="dataColumnR" align="right">
               {% if item.startdate %}
                 {{ item.startdate }} to
               {% endif %}

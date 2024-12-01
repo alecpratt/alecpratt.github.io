@@ -69,6 +69,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
+# [Font Awesome icons](https://fontawesome.com/) and 
+# [Academicons](https://jpswalsh.github.io/academicons/)
 # email is included above in "email" variable
 linkedin_username: alexander-pratt-91b864171 # your LinkedIn user name
 github_username: alecpratt # your GitHub user name

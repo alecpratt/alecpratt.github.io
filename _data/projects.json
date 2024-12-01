@@ -11,7 +11,7 @@
         "project": "Radio Delay Project",
         "purpose": "ENGN 1640 Project (Brown University)",
         "abstract": "rdp",
-        "file": "/assets/pdf/example_pdf.pdf",
+        "file": "None",
         "link": "None",
         "image": "None"
     },
@@ -20,7 +20,7 @@
         "purpose": "CSCI 2340 Project (Brown University)",
         "abstract": "artgen",
         "file": "/assets/pdf/example_pdf.pdf",
-        "link": "None",
+        "link": "https://csci2340.github.io/",
         "image": "None"
     },
     {

@@ -22,12 +22,12 @@ layout: page
             <br>
           {% endif %}
 
-          {% if project.file %}
+          {% if project.file != "None" %}
             <a href="{{ project.file }}" download="pratta_{{ project.abstract }}.pdf"><strong>PDF Download</strong></a>
             <br>
           {% endif %}
 
-          {% if project.link %}
+          {% if project.link != "None" %}
             <a href="{{ project.link }}" target="_blank"><strong>Project Link</strong></a>
           {% endif %}
         </div>

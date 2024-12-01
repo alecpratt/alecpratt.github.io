@@ -8,12 +8,11 @@ layout: page
       {% for project in site.data.projects %}
         <div class="bodyText">
           {% if project.project %}
-            <h3> project.project </h3>
-            <br>
+            <h3> {{ project.project }} </h3>
           {% endif %}
           
           {% if project.purpose %}
-            <em> project.purpose </em>
+            <em> {{ project.purpose }} </em>
             <br>
           {% endif %}
         

@@ -41,7 +41,7 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- Recent Projects -->
-    <h3> <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Recent Projects</a>
+    <h3> <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Recent Projects</a></h3>
     {% for project in site.data.projects limit:3 %}
       <div class="bodyText">
         <strong>{{ project.project }}</strong>

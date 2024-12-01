@@ -46,7 +46,7 @@ layout: default
     {% for project in site.data.projects limit:3 %}
       <div class="bodyText">
         <strong>{{ project.project }}</strong>
-        {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 250 }}...
+        {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 350 }}...
       </div>
     {% endfor %}
 

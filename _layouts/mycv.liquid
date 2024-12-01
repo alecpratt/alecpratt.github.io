@@ -18,9 +18,9 @@ layout: page
         {% for item in section.items %}
           <div class="contentRow">
             <div class="evenColumnL">
-              <strong> {{ item.item }} </strong>
+              <strong> {{ item.item }} </strong>, {{ item.role }}
               <br>
-              <em> {{ item.location }} </em>
+              {{ item.organization }}, <em> {{ item.location }} </em>
             </div>
 
             <div class="evenColumnR" align="right">

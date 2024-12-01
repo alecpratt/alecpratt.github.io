@@ -1,28 +1,224 @@
 - section: Awards
   type: datedlist
   items:
-  - item: Award 1
-    startdate: Date 1.1
-    enddate: Date 1.2
-    location: Temp Location
-  - item: Award 2
+  - item: Achievement Award
     startdate:
-    enddate:
-    location:
+    enddate: March 2023
+    organization: Raytheon
+    location: Tewksbury, MA
+
+  - item: Achievement Award
+    startdate:
+    enddate: October 2022
+    organization: Raytheon
+    location: Tewksbury, MA
+
+  - item: Cum Laude
+    startdate:
+    enddate: May 2021
+    organization: The Pennsylvania State University College of Engineering
+    location: University Park, PA
+
+  - item: Eta Kappa Nu Honor Society
+    startdate: May 2020
+    enddate: Present
+    location: National Membership
+
+  - item: Dean's List
+    startdate:
+    enddate: May 2021
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+  - item: Dean's List
+    startdate:
+    enddate: December 2020
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+  - item: Dean's List
+    startdate:
+    enddate: May 2020
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+  - item: Dean's List
+    startdate:
+    enddate: December 2019
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+  - item: Dean's List
+    startdate:
+    enddate: May 2019
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+  - item: Dean's List
+    startdate:
+    enddate: December 2018
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+  - item: Dean's List
+    startdate:
+    enddate: December 2017
+    organization: The Pennsylvania State University
+    location: University Park, PA
+
+
 - section: Clubs and Organizations
   type: datedlist
   items:
-  - item: Club 1
-    startdate: Date 1.1
-    enddate: Date 1.2
-    location: Temp Location
-  - item: Club 2
-    startdate:
-    enddate:
-    location:
+  - item: Institute of Electrical and Electronics Engineers
+    role: Member
+    startdate: January 2023
+    enddate: Present
+    location: National Membership
+
+  - item: Institute of Electrical and Electronics Engineers Signal Processing Society
+    role: Member
+    startdate: January 2023
+    enddate: Present
+    location: National Membership
+
+  - item: Penn State ROARs Lab (Music Technology Organization)
+    role: Member
+    startdate: August 2020
+    enddate: May 2021
+    location: University Park, PA
+
+  - item: Lambda Chi Alpha Fraternity
+    role: Vice President of Philanthropy, Member
+    startdate: May 2018
+    enddate: Present
+    location: National Membership
+
+  - item: Brown University Chorus
+    role: Member
+    startdate: September 2023
+    enddate: May 2024
+    location: Providence, RI
+
+  - item: The Pennsylvania State University Concert Choir
+    role: Member
+    startdate: August 2018
+    enddate: December 2020
+    location: University Park, PA
+
+  - item: The Pennsylvania State University Men's Glee Club
+    role: Member
+    startdate: August 2017
+    enddate: May 2020
+    location: University Park, PA
+
+  - item: Ayuda THON Special Interest Organization
+    role: Member
+    startdate: August 2017
+    enddate: December 2018
+    location: University Park, PA
+
+  - item: Hi-Lo's Acapella Group
+    role: Member
+    startdate: August 2017
+    enddate: May 2018
+    location: University Park, PA
+
+  - item: Penn State Opera, Carmen
+    role: Ensemble
+    startdate: January 2020
+    enddate: March 2020
+    location: University Park, PA
+
+  - item: Penn State Opera, Iolanthe
+    role: Ensemble
+    startdate: January 2018
+    enddate: March 2018
+    location: University Park, PA
+
 - section: Skills
   type: col3list
   items:
-  - item: Skill 1
-  - item: Skill 2
-  - item: Skill 3
+
+  # Programming Languages
+  - item: C Programming Language
+
+  - item: C++ Programming Language
+
+  - item: HC12 Assembly Language
+  
+  - item: Java Programming Language
+
+  - item: MATLAB Scripting Language
+
+  - item: MaxMSP
+
+  - item: MIPS Assembly Language
+
+  - item: Open Music
+
+  - item: OSC
+
+  - item: Python Scripting Language
+
+  - item: RISC-V Assembly Language
+
+  - item: Verilog / VHDL 
+
+
+
+  # General / Conceptual Skills
+  - item: API Design and Implementation
+  
+  - item: ARM Processor Development
+
+  - item: Assembly Language Programming
+
+  - item: Audio Filter Theory
+
+  - item: Commercial Product Design
+
+  - item: Computer Architecture
+
+  - item: Computer Systems Software
+
+  - item: Digital Logic Design
+
+  - item: Digital Signal Processing
+
+  - item: Embedded System Hardware
+
+  - item: Embedded System Software
+
+  - item: FPGA Development
+
+  - item: Linux Software Development
+
+  - item: Microprocessors
+
+  - item: Networked Software Systems
+
+  - item: Object-Oriented Programming
+
+  - item: PCB Layout
+
+  - item: Real-Time Operating Systems
+
+  - item: Software Design
+
+  - item: Sound Synthesis
+
+  - item: Windows Software Development
+
+
+
+  # Development Tools
+  - item: GDB Debugging
+
+  - item: Google Test
+
+  - item: Jenkins
+
+  - item: Version Control in Git
+
+  - item: Version Control in ClearCase

@@ -1,5 +1,6 @@
 - section: Awards
   type: datedlist
+  items:
   - item: Award 1
     startdate:
     enddate: 
@@ -10,6 +11,7 @@
     location:
 - section: Clubs and Organizations
   type: datedlist
+  items:
   - item: Club 1
     startdate:
     enddate:
@@ -20,7 +22,7 @@
     location:
 - section: Skills
   type: col3list
+  items:
   - item: Skill 1
   - item: Skill 2
   - item: Skill 3
-  

@@ -20,17 +20,21 @@ description:
   <hr>
 
   {% if section.type == "datedlist" %}
-    <div class="contentRow">
-      <div class="dataColumnL>
-        <strong> {{ section.item }} </strong>, <em> {{ section.location }} </em>
-      </div>
+    {% for item in section.items %}
+      <div class="contentRow">
+        <div class="dataColumnL">
+          <strong> {{ item.item }} </strong>
+          <br>
+          <em> {{ item.location }} </em>
+        </div>
 
-      <div class="dataColumnR" align="right">
-        {% if section.startdate %}
-          {{ section.startdate }} to
-        {% endif %}
-        {{ section.enddate }} 
-      </div>
+        <div class="dataColumnR" align="right">
+          {% if item.startdate %}
+            {{ item.startdate }} to
+          {% endif %}
+          {{ item.enddate }} 
+        </div>
+    {% endfor %}
 
 
     </div>

@@ -17,19 +17,18 @@ layout: page
           {% endif %}
         
           {% if project.description %}
-            {% assign description = site.data.websitedata.projects[project.description] %}
             <strong>Abstract: </strong>
-            {{ description.content | slice: 0, 100 }}
+            {{ site.data.projectdescription[project.description] | markdownify | slice: 0, 100 }}
             <br>
           {% endif %}
 
           {% if project.file %}
-            <a href={{ project.file }} download="pratta_{{ project.project }}.pdf"><strong>PDF Download</strong></a>
+            <a href="{{ project.file }}" download="pratta_{{ project.project }}.pdf"><strong>PDF Download</strong></a>
             <br>
           {% endif %}
 
           {% if project.link %}
-            <a href={{project.link}} target="_blank"><strong>Project Link</strong></a>
+            <a href="{{ project.link }}" target="_blank"><strong>Project Link</strong></a>
           {% endif %}
         </div>
       {% endfor %}

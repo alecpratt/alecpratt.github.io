@@ -38,10 +38,10 @@ layout: page
 
 
             {% if topic.data %}
-              {% for book in site.data.booklist limit:10 %}
-                <li>
-                {{ book.book }} - <em> {{ book.author }} </em>
-                </li>
+              {% for book in site.data.booklist limit:15 %}
+                <p style="text-align: center;">
+                  <b>{{ book.book }}</b> - <em> {{ book.author }} </em>
+                </p>
               {% endfor %}
             {% endif %}
           </div>

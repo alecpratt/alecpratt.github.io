@@ -9,8 +9,7 @@ description:
 #toc:
 #  sidebar: left
 ---
-
-
+<p> This page contains all relevant professional information that is not already included in the Academics, Professional, and Projects pages of this website. </p>
 <p> A copy of my resume can be downloaded 
 <a href="/assets/pdf/example_pdf.pdf" download="pratta_resume.pdf"><strong>here</strong></a>
 . </p>
@@ -34,13 +33,8 @@ description:
           {% endif %}
           {{ item.enddate }} 
         </div>
+      </div>
     {% endfor %}
-
-
-    </div>
-
-
-
   {% else %}
 
 

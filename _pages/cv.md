@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: mycv
 permalink: /cv/
 title: CV
 nav: true
@@ -9,42 +9,3 @@ description:
 #toc:
 #  sidebar: left
 ---
-<p> This page contains all relevant professional information that is not already included in the Academics, Professional, and Projects pages of this website. </p>
-<p> A copy of my resume can be downloaded 
-<a href="/assets/pdf/example_pdf.pdf" download="pratta_resume.pdf"><strong>here</strong></a>
-. </p>
-
-{% for section in site.data.mycv %}
-  <h3> {{ section.section }} </h3>
-  <hr>
-
-  {% if section.type == "datedlist" %}
-    {% for item in section.items %}
-      <div class="contentRow">
-        <div class="dataColumnL">
-          <strong> {{ item.item }} </strong>
-          <br>
-          <em> {{ item.location }} </em>
-        </div>
-
-        <div class="dataColumnR" align="right">
-          {% if item.startdate %}
-            {{ item.startdate }} to
-          {% endif %}
-          {{ item.enddate }} 
-        </div>
-      </div>
-    {% endfor %}
-  {% else %}
-    {% if section.items %}
-      <div class="contentRow>
-        {% for item in section.items %}
-          <div class="columnThirds">
-            {{ item.item }}
-          </div>
-        {% endfor %}
-      </div>
-    {% endif %}
-  {% endif %}
-
-{% endfor %}

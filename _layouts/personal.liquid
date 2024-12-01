@@ -38,7 +38,7 @@ layout: page
           </div>
 
           {% if topic.data == "booklist" %}
-            {% assign booksToDisplay = site.data.booklist[0:9] %}
+            {% assign booksToDisplay = site.data.booklist[0..9] %}
             {% for book in booksToDisplay %}
               <li>
                 {{ book.book }}, <em> {{ book.author }} </em>

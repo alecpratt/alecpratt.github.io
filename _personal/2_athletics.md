@@ -8,7 +8,7 @@ data:
 Growing up I played basketball, baseball, and I ran cross country and track. Unfortunately, I have not kept up with organized sports since I left High School. However, I still try to prioritize physical fitness and I still enjoy watching certain sports teams.
 
 ##### Personal Fitness
-Since the COVID-19 pandemic, I have tried to maintain a healthy workout routine. I like the saying that you can't have a fully healthy mind without a healthy body.
+Since the COVID-19 pandemic, I have tried to maintain a healthy workout routine. I like the saying that you can't have a fully healthy mind without a healthy body. Add me on Strava on my social tab at the bottom of the page!
 
 In general, I try to do some sort of weight training 5-6 days a week. I am currently attempting to break 225 on bench press by the end of 2024 (I think I'm there, I just need to try!), as well as push myself in all other exercises. 
 

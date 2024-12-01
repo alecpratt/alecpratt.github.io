@@ -11,37 +11,37 @@ layout: page
     . </p>
 
     {% for section in site.data.mycv %}
-    <h3> {{ section.section }} </h3>
-    <hr>
+      <h3> {{ section.section }} </h3>
+      <hr>
 
-    {% if section.type == "datedlist" %}
+      {% if section.type == "datedlist" %}
         {% for item in section.items %}
-        <div class="contentRow">
+          <div class="contentRow">
             <div class="dataColumnL">
-            <strong> {{ item.item }} </strong>
-            <br>
-            <em> {{ item.location }} </em>
+              <strong> {{ item.item }} </strong>
+              <br>
+              <em> {{ item.location }} </em>
             </div>
 
             <div class="dataColumnR" align="right">
-            {% if item.startdate %}
+              {% if item.startdate %}
                 {{ item.startdate }} to
-            {% endif %}
-            {{ item.enddate }} 
+              {% endif %}
+              {{ item.enddate }} 
             </div>
-        </div>
+          </div>
         {% endfor %}
-    {% else %}
+      {% else %}
         {% if section.items %}
-        <div class="contentRow>
+          <div class="contentRow">
             {% for item in section.items %}
-            <div class="columnThirds">
+              <div class="columnThirds">
                 {{ item.item }}
-            </div>
+              </div>
             {% endfor %}
-        </div>
+          </div>
         {% endif %}
-    {% endif %}
+      {% endif %}
 
     {% endfor %}
   </article>

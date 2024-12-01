@@ -2,9 +2,9 @@
   type: datedlist
   items:
   - item: Award 1
-    startdate:
-    enddate: 
-    location:
+    startdate: Date 1.1
+    enddate: Date 1.2
+    location: Temp Location
   - item: Award 2
     startdate:
     enddate:
@@ -13,9 +13,9 @@
   type: datedlist
   items:
   - item: Club 1
-    startdate:
-    enddate:
-    location:
+    startdate: Date 1.1
+    enddate: Date 1.2
+    location: Temp Location
   - item: Club 2
     startdate:
     enddate:

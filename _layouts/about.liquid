@@ -38,18 +38,17 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">
+    <div class="clearfix"></div>
       {{ content }}
 
-      <!-- Recent Projects -->
-      <h3> <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Recent Projects</a></h3>
-      {% for project in site.data.projects limit:3 %}
-        <div class="bodyText">
-          <strong>{{ project.project }}</strong>
-          {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 100 }}
-        </div>
-      {% endfor %}
-    </div>
+    <!-- Recent Projects -->
+    <h3> <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Recent Projects</a></h3>
+    {% for project in site.data.projects limit:3 %}
+      <div class="bodyText">
+        <strong>{{ project.project }}</strong>
+        {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 100 }}
+      </div>
+    {% endfor %}
 
     <!-- Social -->
     {% if page.social %}

@@ -11,22 +11,20 @@ layout: page
           <div class="contentRow">
             {% if topic.topic %}
               {% if topic.align == "left" %}
-                <div class="evenColumnL">
+                <div class="headerColumnL">
                   <h3> {{ topic.topic }} </h3>
                 </div>
-                <div class="evenColumnR">
+                <div class="headerColumnR">
                 </div>
               {% else %}
-                <div class="evenColumnL">
+                <div class="headerColumnL">
                 </div>
-                <div class="evenColumnR" align="right">
+                <div class="headerColumnR" align="right">
                   <h3> {{ topic.topic }} </h3>
                 </div>
               {% endif %}
             {% endif %}
-          </div>
 
-          <div class="bodyText">
             <!-- Topic Image Alignment -->
             {% if topic.imagealign and topic.image %}
               <div class="float.{{ topic.imagealign }}">
@@ -45,7 +43,6 @@ layout: page
               {% endfor %}
             {% endif %}
           </div>
-
 
 
         {% endfor %}

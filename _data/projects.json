@@ -1,7 +1,7 @@
 [
     {
         "project": "From DINO to DYNO",
-        "purpose": "COMPSCI 2420 Project",
+        "purpose": "COMPSCI 2420 Project (Harvard University)",
         "abstract": "dyno",
         "file": "/assets/pdf/example_pdf.pdf",
         "link": "https://www.cbssports.com/college-football/news/2024-big-ten-championship-game-oregon-vs-penn-state-set-as-ohio-state-loss-helps-vault-nittany-lions/",
@@ -9,7 +9,7 @@
     },
     {
         "project": "Radio Delay Project",
-        "purpose": "ENGN 1640 Project",
+        "purpose": "ENGN 1640 Project (Brown University)",
         "abstract": "rdp",
         "file": "/assets/pdf/example_pdf.pdf",
         "link": "None",
@@ -17,7 +17,7 @@
     },
     {
         "project": "ArtGen",
-        "purpose": "CSCI 2340 Project",
+        "purpose": "CSCI 2340 Project (Brown University)",
         "abstract": "artgen",
         "file": "/assets/pdf/example_pdf.pdf",
         "link": "None",
@@ -25,7 +25,7 @@
     },
     {
         "project": "Automated Graphics for Contemporary Performance",
-        "purpose": "MUSC 1210 Project",
+        "purpose": "MUSC 1210 Project (Brown University)",
         "abstract": "agcp",
         "file": "/assets/pdf/example_pdf.pdf",
         "link": "None",

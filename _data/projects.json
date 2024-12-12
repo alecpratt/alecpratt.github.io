@@ -11,7 +11,7 @@
     {
         "project": "Radio Delay Project",
         "purpose": "ENGN 1650 Project (Brown University)",
-        "permalink": "None",
+        "permalink": "/projects/rdp",
         "abstract": "rdp",
         "file": "None",
         "link": "https://github.com/alecpratt/ENGN1650",
@@ -20,7 +20,7 @@
     {
         "project": "ArtGen",
         "purpose": "CSCI 2340 Project (Brown University)",
-        "permalink": "None",
+        "permalink": "/projects/artgen",
         "abstract": "artgen",
         "file": "None",
         "link": "https://csci2340.github.io/",
@@ -29,7 +29,7 @@
     {
         "project": "Automated Graphics for Contemporary Performance",
         "purpose": "MUSC 1210 Project (Brown University)",
-        "permalink": "None",
+        "permalink": "/projects/agcp",
         "abstract": "agcp",
         "file": "None",
         "link": "None",

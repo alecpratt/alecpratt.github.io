@@ -18,7 +18,7 @@ layout: page
         
           {% if project.abstract %}
             <strong>Abstract: </strong>
-            {{ site.data.projectabstract[project.abstract] | slice: 0, 350 }}...
+            {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 350 }}...
             (<a href="{{project.permalink}}">read more</a>)
             <br>
           {% endif %}

@@ -45,7 +45,7 @@ layout: default
     <h4> <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Recent Projects</a></h4>
     {% for project in site.data.projects limit:3 %}
       <div class="bodyText">
-         <a href="{{project.permalink}}><strong>{{ project.project }}</strong></a>
+         <a href="{{project.permalink}}"><strong>{{ project.project }}</strong></a>
         {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 350 }}...
       </div>
     {% endfor %}

@@ -11,4 +11,6 @@ description: This page contains all relevant professional information that is no
 #  sidebar: left
 splitinformation: true
 includedates: false
+
+social: true # includes social icons at the bottom of the page
 ---

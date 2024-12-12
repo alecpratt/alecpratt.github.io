@@ -1,0 +1,22 @@
+MVP:
+- Music
+
+Next Up:
+- Project Report proofread
+- CV List
+- Volunteer Work on Professional Page (think through how to separate)
+- skills in professional section
+- Tab Logo
+- PSU Projects
+
+- Refactor for JSON
+- Project specific pages
+- link projects on home page to project specific permalinks
+- link skills to example projects / courses
+
+- Colors
+- Maybe make CV fancier / nicer looking?
+- Refactor 
+- Clean up repo to be stuff I use only. 
+- Separate Skills and Organization Types?
+- link pictures on academics + professional to respective websites

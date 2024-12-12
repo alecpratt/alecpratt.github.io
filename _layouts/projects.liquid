@@ -18,13 +18,13 @@ layout: page
         
           {% if project.abstract %}
             <strong>Abstract: </strong>
-            {{ site.data.projectabstract[project.abstract] | markdownify | slice: 0, 350 }}...
+            {{ site.data.projectabstract[project.abstract] | slice: 0, 350 }}...
             (<a href="{{project.permalink}}">read more</a>)
             <br>
           {% endif %}
 
           {% if project.file != "None" %}
-            <a href="{{ project.file }}" download="pratta_{{ project.abstract }}.pdf"><strong>PDF Download</strong></a>
+            <a href="/assets/pdf/{{ project.file }}" download="pratta_{{ project.abstract }}.pdf"><strong>PDF Download</strong></a>
             <br>
           {% endif %}
 

@@ -17,12 +17,12 @@ layout: page
 
         {% if proj.abstract %}
           <strong>Abstract: </strong>
-          {{ site.data.projectabstract[proj.abstract] | markdownify}}
+          {{ site.data.projectabstract[proj.abstract] }}
           <br>
         {% endif %}
 
         {% if proj.file != "None" %}
-          <a href="{{ proj.file }}" download="pratta_{{ proj.abstract }}.pdf"><strong>PDF Download</strong></a>
+          <a href="/assets/pdf/{{ proj.file }}" download="pratta_{{ proj.abstract }}.pdf"><strong>PDF Download</strong></a>
           <br>
         {% endif %}
 

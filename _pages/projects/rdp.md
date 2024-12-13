@@ -1,5 +1,6 @@
 ---
 layout: project
+title: RDP
 index: 1
 permalink: /projects/rdp
 

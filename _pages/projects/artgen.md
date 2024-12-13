@@ -1,5 +1,6 @@
 ---
 layout: project
+title: ARTGEN
 index: 2
 permalink: /projects/artgen
 

@@ -1,5 +1,6 @@
 ---
 layout: project
+title: AGCP
 index: 3
 permalink: /projects/agcp
 

@@ -1,5 +1,6 @@
 ---
 layout: project
+title: DYNO
 index: 0
 permalink: /projects/dyno
 

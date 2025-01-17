@@ -1,5 +1,17 @@
 [
     {
+        "book": "Kafka on the Shore",
+        "author": "Haruki Murakami"
+    },
+    {
+        "book": "Second Foundation",
+        "author": "Isaac Asimov"
+    },
+    {
+        "book": "Foundation and Empire",
+        "author": "Isaac Asimov"
+    },
+    {
         "book": "Renegade",
         "author": "Adam Kinzinger"
     },
